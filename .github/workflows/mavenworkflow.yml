@@ -28,7 +28,7 @@ jobs:
       # - name: setup mysql
         # run: |
         #   mysql -u root -e "CREATE User 'dev'@'localhost' IDENTIFIED BY 'ax2'; GRANT ALL PRIVILEGES ON *.* TO 'dev'@'localhost' WITH GRANT OPTION;"
-        #   mysql -u dev -pax2 -e "CREATE DATABASE IF NOT EXISTS startcode_test;"
+        #   mysql -u dev -pax2 -e "CREATE DATABASE IF NOT EXISTS startcode_demo;"
         # run: mysql -h 127.0.0.1 --port 8888 -u dev -pax2 -e 'CREATE DATABASE IF NOT EXISTS startcode_demo;'
       - name: mysql
         uses: mirromutth/mysql-action@v1.1
