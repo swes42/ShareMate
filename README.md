@@ -1,2 +1,0 @@
-# ShareMate
-final
